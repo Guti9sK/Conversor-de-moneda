@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(70, 98, 174);
+}
+
+h1 {
+  margin-bottom: 1rem;
+  margin-top: 6rem;
+  text-align: center;
+  color: #ebeaea;
+  text-shadow: 5px 5px 1rem rgba(0, 0, 0, 0.7);
+}
+
+#widget-convertidor {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #bdc7ef;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 1rem rgba(0, 0, 0, 0.4);
+}
+
+#cantidad,
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgb(229, 229, 229);
+  box-shadow: 2px 5px .5rem rgba(0, 0, 0, 0.2);
+  
+}
+
+button {
+  margin-top: 1.5rem;
+  font-size: 0.96rem;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+p#resultado {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  #widget-convertidor {
+    margin: 15px;
+  }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Conversor de moneda</title>
+  </head>
+  <body>
+    <h1>Conversor de moneda</h1>
+    <div id="widget-convertidor">
+      <input type="number" id="cantidad" placeholder="Cantidad" autofocus/>
+
+      <select id="de-moneda">
+        <option value="USD">Dólar</option>
+        <option value="EUR">Euro</option>
+        <option value="JPY">Yen</option>
+      </select>
+
+      <select id="a-moneda">
+        <option value="USD">Dólar</option> 
+        <option value="EUR" id="">Euro</option>
+        <option value="JPY">Yen</option>
+      </select>
+
+      <button id="convertir">Convertir</button>
+      <p id="resultado"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
